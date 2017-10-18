@@ -4,7 +4,7 @@ import App from './component/App.js';
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App
-  headerTitle="Welcome!"
-  contentTitle="Stranger"
+  headerTitle = "Welcome!"
+  contentTitle = "Stranger"
   contentBody = "Welcome to example app"
 />, rootElement);
