@@ -3,6 +3,8 @@ import Header from './Header';
 import Content from './Content';
 import StateExample from './StateExample';
 import RandomNumber from './RandomNumber';
+import Contacts from './Contact/Contacts';
+
 import _ from 'underscore';
 class App extends React.Component {
     constructor(props){
@@ -25,6 +27,7 @@ class App extends React.Component {
                         body = {this.props.contentBody}/>
                 <RandomNumber number={this.state.value}
                               onUpdate={this.updateValue}/>
+                <Contacts />
             </div>
         );
     }
