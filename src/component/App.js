@@ -4,8 +4,8 @@ import Content from './Content';
 import StateExample from './StateExample';
 import RandomNumber from './RandomNumber';
 import Contacts from './Contact/Contacts';
-
 import _ from 'underscore';
+
 class App extends React.Component {
     constructor(props){
       super(props);

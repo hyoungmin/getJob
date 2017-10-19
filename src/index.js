@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './component/App.js';
+import App from './App';
 
-const rootElement = document.getElementById('root');
-ReactDOM.render(<App
-  headerTitle = "Welcome!"
-  contentTitle = "Stranger"
-  contentBody = "Welcome to example app"
-/>, rootElement);
+let rootElement = document.getElementById('root');
+
+ReactDOM.render(<App />, rootElement);
